@@ -15,7 +15,7 @@ function change(){
 // move the no button randomly
 $('#naur').on('mouseover', function() {
     $(this).animate({
-      'top': Math.random() * 320 + "px",
-      'left': Math.random() * 320 + "px"
+      'top': Math.random() * 300 + "px",
+      'left': Math.random() * 300 + "px"
     }, "medium");
   })
